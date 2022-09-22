@@ -8,6 +8,7 @@ namespace StatSystem.Runtime
     public class StatDatabase : ScriptableObject
     {
         public List<StatDefinition> stats;
+        public List<StatDefinition> attribute;
     }
 }
 
